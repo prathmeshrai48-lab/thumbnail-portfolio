@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prathmesh Rai — Thumbnail Designer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #0e0e0e;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+    a { color: #00ffcc; text-decoration: none; }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px;
+      background: radial-gradient(circle at top, #1a1a1a, #000);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      opacity: 0.85;
+    }
+
+    .btn {
+      margin-top: 25px;
+      padding: 14px 28px;
+      background: #00ffcc;
+      color: #000;
+      font-weight: 700;
+      border-radius: 8px;
+      display: inline-block;
+    }
+
+    section {
+      padding: 80px 8%;
+    }
+
+    h2 {
+      font-size: 2.2rem;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .thumb {
+      background: #161616;
+      border-radius: 12px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .thumb:hover { transform: scale(1.04); }
+
+    .thumb img {
+      width: 100%;
+      display: block;
+    }
+
+    .thumb p {
+      padding: 12px;
+      text-align: center;
+      font-size: 0.95rem;
+      opacity: 0.85;
+    }
+
+    .about {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    .skills {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    .skill {
+      padding: 10px 18px;
+      background: #1f1f1f;
+      border-radius: 30px;
+      font-size: 0.9rem;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    footer {
+      padding: 20px;
+      text-align: center;
+      background: #000;
+      opacity: 0.6;
+    }
+
+    @media(max-width: 600px) {
+      header h1 { font-size: 2.2rem; }
+      h2 { font-size: 1.8rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>YouTube Thumbnails That Get Clicks</h1>
+  <p>I design high‑CTR YouTube thumbnails using click psychology, emotional expressions, and modern design trends.</p>
+  <a href="#work" class="btn">View My Work</a>
+</header>
+
+<section id="work">
+  <h2>My Work</h2>
+  <div class="grid">
+    <div class="thumb">
+      <img src="cars selection thumbnail (1).png" alt="Which car should I buy in 2026 thumbnail">
+      <p>Automobile / Comparison</p>
+    </div>
+    <div class="thumb">
+      <img src="How_to_Get_Rich_Test_Thumbnail final (1) (1).png" alt="How to get rich no experience thumbnail">
+      <p>Business / Finance</p>
+    </div>
+    <div class="thumb">
+      <img src="is ai dangerous to humans thumbnails .png" alt="Is AI dangerous to humans thumbnail">
+      <p>AI / Technology</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>About Me</h2>
+  <p class="about">
+    I'm Prathmesh Rai, a YouTube Thumbnail Designer focused on increasing click‑through rates. I study viewer psychology, trends, and emotional triggers to design thumbnails that stand out in crowded feeds.
+  </p>
+</section>
+
+<section>
+  <h2>Skills & Tools</h2>
+  <div class="skills">
+    <div class="skill">Photoshop</div>
+    <div class="skill">Figma</div>
+    <div class="skill">Canva</div>
+    <div class="skill">Click Psychology</div>
+    <div class="skill">CTR Optimization</div>
+    <div class="skill">YouTube Trends</div>
+  </div>
+</section>
+
+<section class="contact">
+  <h2>Hire Me</h2>
+  <p>Want thumbnails that people can’t ignore?</p>
+  <p>Email: <a href="mailto:prathmeshrai48@gmail.com">prathmeshrai48@gmail.com</a></p>
+</section>
+
+<footer>
+  © 2026 Prathmesh Rai — Thumbnail Designer
+</footer>
+
+</body>
+</html>
